@@ -1,0 +1,200 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  /* background-image: url(./Back2.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  background: linear-gradient(90deg,rgb(123, 123, 238),blue);
+  background-image: fixed;
+}
+nav{
+  background:blue;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+label.logo{
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  float:left;
+  margin-left: 100px;
+}
+nav ul{
+  float:left;
+  margin-left:5px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 1px;
+}
+nav ul li a{
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+div.Right{
+  float:right;
+  margin-left: 200px;
+}
+
+
+.container{
+text-align: center;
+/* padding: 200rem; */
+}
+.container ul .rig{
+  color: white;
+  padding: 10px 10px;
+}
+.container ul .lef{
+  color: white;
+  padding: 10px 10px;
+}
+.container ul{
+  color: white;
+}
+
+li.join{
+  float: left;
+  margin-top: 10px;
+}
+div.button{
+  padding: 100px;
+}
+
+
+
+.testimonials{
+  padding: 40px 0;
+  background:lavenderblush;
+  color:black;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.border{
+  width: 160px;
+  height: 5px;
+  background: blueviolet;
+  margin: 26px auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 30.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: white;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+
+
+footer{
+  position: none;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+/* Reponsive */
+
+
+@media (width < 860px){
+  .nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+  }
+  .container{
+    text-align: center; 
+  }
+  .testimonials{
+    padding: 20px 0;
+    background:lavenderblush;
+    color:black;
+    text-align: center;
+  }
+.section1 col img{
+  height: 150px;
+  width: 250px;
+}
+}
+
+@media (width < 600px){
+
+}
+
+
+
+
+/* --------for mobile screen---------- */
+/* @media only screen and (min-width: 100%) {
+  .nav{ width:8.33%; }
+  .ul { width:16.66%}
+  .container{ width: 25%;}
+  .testimonials{ width: 33.33%}
+  .section{ width: 41.66%;}
+}   */
+
+/* --------for tab screen---------- */
+/* @media only screen and (min-width: 600px) {
+  .nav{ width:8.33%; }
+  .ul { width:16.66%}
+  .container{ width: 25%;}
+  .testimonials{ width: 33.33%}
+  .section{ width: 41.66%;}
+  label.logo{font-size: 80px;}
+}   */
+
+
+/* --------for Laptop screen---------- */
+/* @media only screen and (min-width: 768px) {
+  .nav{ width:8.33%; }
+  .ul { width:16.66%}
+  .container{ width: 25%;}
+  .testimonials{ width: 33.33%}
+  .section{ width: 41.66%;}
+}   */
